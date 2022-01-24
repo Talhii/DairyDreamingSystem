@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dashboard"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/customer_btn"
+        android:layout_marginTop="180dp"
+        android:layout_gravity="center"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:background="@drawable/button_round4"
+        android:ellipsize="start"
+        android:foregroundGravity="top"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="26sp"
+        android:textStyle="bold|italic"
+        android:text="Customer"/>
+
+    <Button
+        android:id="@+id/whole_seller_btn"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_round4"
+        android:ellipsize="start"
+        android:foregroundGravity="top"
+        android:text="Wholesaler"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="26sp"
+        android:textStyle="bold|italic" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="35dp"
+        android:layout_gravity="center"
+        >
+    <Button
+        android:id="@+id/farm_owner_btn"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/button_round4"
+        android:ellipsize="start"
+        android:foregroundGravity="top"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="26sp"
+        android:textStyle="bold|italic"
+        android:text="Farm Owner"/>
+
+    <Button
+        android:id="@+id/food_authority_btn"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:background="@drawable/button_round4"
+        android:ellipsize="start"
+        android:foregroundGravity="top"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+        android:textSize="26sp"
+        android:textStyle="bold|italic"
+        android:text="Food Authority"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

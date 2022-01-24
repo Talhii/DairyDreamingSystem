@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".Order_milk">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Milk"
+        android:textStyle="bold"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:layout_marginTop="25dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cow Milk Stock: "
+            android:textSize="10dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/cow_milk_stock_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Goat Milk Stock: "
+            android:textSize="10dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/goat_milk_stock_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Buffalo Milk Stock: "
+            android:textSize="10dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"/>
+
+        <TextView
+            android:id="@+id/buffalo_milk_stock_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10dp"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+
+    <EditText
+        android:id="@+id/milk_amount_et"
+        android:layout_width="272dp"
+        android:layout_height="50dp"
+        android:hint="Amount of Milk (Litres)"
+        android:background="@drawable/button_round4"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center" />
+
+    <Spinner
+        android:id="@+id/animal_spinner"
+        android:layout_width="272dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_round4"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center" />
+
+
+    <Spinner
+        android:id="@+id/delivery_spinner"
+        android:layout_width="272dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_round4"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center" />
+
+    <Button
+        android:id="@+id/order_milk_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Now"
+        android:layout_gravity="center"
+        android:background="@drawable/button_round4"
+        android:layout_marginTop="60dp"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/selection"
+    tools:context=".Farm_owner">
+
+
+
+    <Button
+        android:id="@+id/farm_owner_upload_data_activity_btn"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dp"
+        android:background="#FB9600"
+        android:text="Upload Data"
+        />
+
+
+    <Button
+        android:id="@+id/manage_order_btn"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="#FB9600"
+        android:text="Manage Orders and Show location"/>
+
+    <Button
+        android:id="@+id/share_location_btn"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:background="#FB9600"
+        android:text="Share Your Location"/>
+
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/customer"
+    tools:context=".Customer_signup">
+
+
+    <ImageView
+        android:layout_width="242dp"
+        android:layout_height="99dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/admin_singup_logo" />
+
+    <EditText
+        android:id="@+id/customer_name_signup_et"
+        android:layout_width="264dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_round"
+        android:ems="10"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:digits=" abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        android:layout_marginTop="20dp"
+        android:hint="Enter your Name"/>
+
+    <EditText
+        android:id="@+id/customer_email_signup_et"
+        android:layout_width="264dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_round"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Email"/>
+
+    <EditText
+        android:id="@+id/customer_password_signup_et"
+        android:layout_width="264dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_round"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:hint="Enter password"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        />
+
+    <EditText
+        android:id="@+id/customer_confirm_password_signup_et"
+        android:layout_width="264dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_round"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:hint="Confirm password"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"/>
+
+
+    <Button
+        android:id="@+id/customer_signup_btn"
+        android:layout_width="200dp"
+        android:layout_height="69dp"
+        android:background="@drawable/customer_register"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:textStyle="italic"
+        />
+
+</LinearLayout>

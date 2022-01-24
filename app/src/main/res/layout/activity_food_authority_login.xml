@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/food"
+    tools:context=".Food_authority_login">
+
+
+    <ImageView
+        android:layout_width="208dp"
+        android:layout_height="142dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        app:srcCompat="@drawable/food_authority_login" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+        android:text="Food Authority"
+        />
+
+    <Spinner
+        android:id="@+id/province_spinner"
+        android:layout_width="272dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_round4"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/food_authority_signin_pin_et"
+        android:layout_width="271dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/button_round4"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:hint="Enter pin"
+        android:textColorHint="@android:color/secondary_text_light"
+        android:textStyle="bold"/>
+
+
+    <Button
+        android:id="@+id/food_authority_signin_btn"
+        android:layout_width="81dp"
+        android:layout_height="36dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/authority_login"
+        android:fontFamily="sans-serif-smallcaps"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="bottom"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_weight="0.25"
+            app:srcCompat="@drawable/balouchistan" />
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_weight="0.25"
+            app:srcCompat="@drawable/kpk" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_weight="0.25"
+            app:srcCompat="@drawable/sindh" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
+            android:layout_weight="0.25"
+            app:srcCompat="@drawable/punjab" />
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Dairy Dreaming System</string>
+    <string-array name="province_spinner_array">
+        <item>Punjab</item>
+        <item>Sindh</item>
+        <item>Balochistan</item>
+        <item>KPK</item>
+    </string-array>
+
+    <string-array name="animal_spinner_array">
+        <item>Cow</item>
+        <item>Buffalo</item>
+        <item>Goat</item>
+    </string-array>
+
+    <string-array name="delivery_spinner_array">
+        <item>Online</item>
+        <item>Offline</item>
+    </string-array>
+    <string name="title_activity_maps">Map</string>
+
+</resources>

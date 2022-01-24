@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/admin"
+    tools:context=".Farm_owner_login">
+
+
+    <ImageView
+        android:layout_width="224dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        app:srcCompat="@drawable/admin_singin_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_gravity="center"
+
+        android:text="Farm Owner"/>
+
+    <EditText
+        android:id="@+id/farm_owner_email_signin_et"
+        android:layout_width="264dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_round"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:hint="Enter your Email"/>
+
+    <EditText
+        android:id="@+id/farm_owner_password_signin_et"
+        android:layout_width="264dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/button_round"
+        android:ems="10"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:hint="Enter Password"
+        android:inputType="textPassword"/>
+
+
+    <Button
+        android:id="@+id/farm_owner_signin_btn"
+        android:layout_width="171dp"
+        android:layout_height="75dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_round4"
+        android:ellipsize="start"
+        android:foregroundGravity="top"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="@color/colorPrimary"
+        android:textColorHint="@color/colorPrimary"
+        android:textColorLink="@color/colorPrimary"
+        android:text="Sign in"
+        android:textSize="36sp"
+        android:layout_gravity="center"
+        android:textStyle="italic"/>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:text="Do not have account ?"/>
+
+        <Button
+            android:id="@+id/farm_owner_signup_activity_btn"
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:background="@drawable/button_round4"
+            android:ellipsize="start"
+            android:foregroundGravity="top"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:textColorHighlight="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimary"
+            android:textColorLink="@color/colorPrimary"
+            android:textSize="30sp"
+            android:text="Sign Up"/>
+
+    </LinearLayout>
+
+</LinearLayout>

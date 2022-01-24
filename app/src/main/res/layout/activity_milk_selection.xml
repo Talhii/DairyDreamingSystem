@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/selection"
+    tools:context=".Milk_selection">
+
+
+    <Button
+        android:id="@+id/milk_update_price_activity_btn"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="180dp"
+        android:background="#FB9600"
+        android:text="Update Price"
+        />
+
+
+    <Button
+        android:id="@+id/milk_update_stock_activity_btn"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="#FB9600"
+        android:text="Update Stock"/>
+
+    <Button
+        android:id="@+id/show_previous_data_activity_btn"
+        android:layout_width="260dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:background="#FB9600"
+        android:text="Show Current Data"/>
+
+
+</LinearLayout>

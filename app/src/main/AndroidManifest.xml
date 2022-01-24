@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.dairyservice">
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the "MyLocation" functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission. ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Show_previous_data"></activity>
+        <activity android:name=".Farm_owner_manage_order_selection" />
+        <activity android:name=".Farm_owner_animal_orders" />
+        <activity android:name=".Customer_animal_order_info" />
+        <activity android:name=".Farm_owner_share_location_middle" />
+        <activity android:name=".Customer_milk_order_info" />
+        <activity android:name=".Show_location" />
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" />
+        <activity android:name=".Complain" />
+        <activity android:name=".Farm_owner_share_location" />
+        <activity android:name=".Share_location" />
+        <activity android:name=".Farm_owner" />
+        <activity android:name=".Order_animal" />
+        <activity android:name=".Order_milk" />
+        <activity android:name=".Animal_data_of_selected_farm" />
+        <activity android:name=".Milk_data_of_specific_farm" />
+        <activity android:name=".Select_farm_for_buying_milk" />
+        <activity android:name=".Farm_owner_manage_orders" />
+        <activity android:name=".Milk_stock" />
+        <activity android:name=".Milk_prices" />
+        <activity android:name=".Milk_selection" />
+        <activity android:name=".Upload_animal_goat" />
+        <activity android:name=".Upload_animal_buffalo" />
+        <activity android:name=".Animal_selection" />
+        <activity android:name=".Upload_animal_cow" />
+        <activity android:name=".Food_authority" />
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Farm_owner_upload_data" />
+        <activity android:name=".Customer" />
+        <activity android:name=".Whole_saler_signup" />
+        <activity android:name=".Farm_owner_signup" />
+        <activity android:name=".Food_authority_login" />
+        <activity android:name=".Farm_owner_login" />
+        <activity android:name=".Whole_saler_login" />
+        <activity android:name=".Customer_signup" />
+        <activity android:name=".Customer_login" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

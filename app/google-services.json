@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "672389169246",
+    "project_id": "dairy-service-5ea93",
+    "storage_bucket": "dairy-service-5ea93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:672389169246:android:f0dab6cf1ee245e7a234cf",
+        "android_client_info": {
+          "package_name": "com.example.dairyservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "672389169246-5eupssrjgm1v9aiseskjc1rh0djkqock.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.dairyservice",
+            "certificate_hash": "1fb32d6755a485eb142e24c7934bb869dad67191"
+          }
+        },
+        {
+          "client_id": "672389169246-3f23umh89d331u5ckq9799k1jil00v7o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEr8oDmL4I06Qixzr_f8pb1t9jVMvOIkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "672389169246-3f23umh89d331u5ckq9799k1jil00v7o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    tools:context=".Complain">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Complain Form"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"/>
+
+    <EditText
+        android:id="@+id/complain_title_et"
+        android:layout_width="272dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_round4"
+        android:layout_marginTop="60dp"
+        android:hint="Title of Complain"
+        android:layout_gravity="center" />
+
+    <EditText
+        android:id="@+id/farm_owner_email_et"
+        android:layout_width="272dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_round4"
+        android:layout_marginTop="20dp"
+        android:hint="Farm Owner Email"
+        android:layout_gravity="center" />
+
+    <Spinner
+        android:id="@+id/province_spinner"
+        android:layout_width="272dp"
+        android:layout_height="50dp"
+        android:background="@drawable/button_round4"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="30dp"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="vertical"
+        android:overScrollMode="always"
+        android:fadeScrollbars="false"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="35dp"
+        android:scrollbarSize="5dp"
+        >
+
+        <EditText
+            android:id="@+id/complain_message_et"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:minLines="10"
+            android:textSize="15sp"
+            android:hint="Enter your message here:"
+            android:gravity="start"
+            android:layout_margin="10dp"
+            android:background="#EDCA5C"
+            />
+
+    </ScrollView>
+
+
+    <Button
+        android:id="@+id/complain_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Complain"
+        android:layout_gravity="center"
+        android:background="@drawable/button_round4"
+        android:layout_marginTop="10dp"/>
+
+
+</LinearLayout>

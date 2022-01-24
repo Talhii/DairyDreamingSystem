@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/selection"
+    tools:context=".Customer">
+
+    <Button
+        android:id="@+id/buy_milk_btn"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="140dp"
+        android:background="#6BBD6F"
+        android:text="Buy Milk"
+        />
+
+
+    <Button
+        android:id="@+id/buy_animal_btn"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#6BBD6F"
+        android:text="Buy Animal"/>
+
+
+    <Button
+        android:id="@+id/last_order_info_activity_btn"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#6BBD6F"
+        android:text="Last Order info"/>
+
+    <Button
+        android:id="@+id/complain_activity_btn"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="#6BBD6F"
+        android:text="Complain to food authority"/>
+
+
+
+</LinearLayout>
